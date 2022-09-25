@@ -4,6 +4,10 @@
 
 A web based version of the classic game Connect Four
 
+## Recommended IDE Setup
+
+[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+
 ## Local Development
 
 1. Ensure that you have the
