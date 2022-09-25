@@ -4,11 +4,12 @@
 	"description": "A web based version of the classic game Connect Four",
 	"type": "module",
 	"scripts": {
-		"prebuild": "CI=true npm test -- run --coverage",
+		"prebuild": "npm run lint && CI=true npm test -- run --coverage",
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
+		"lint": "eslint --ext .cjs,.js,.ts,.svelte src",
 		"test": "vitest"
 	},
 	"repository": {
