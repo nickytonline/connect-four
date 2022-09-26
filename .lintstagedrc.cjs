@@ -1,5 +1,5 @@
 module.exports = {
-	'*.json': ['prettier --write'],
+	'*.{json,yml}': ['prettier --write'],
 	'*.md': ['prettier --write --prose-wrap always'],
 	'*.{css,scss}': ['prettier --write'],
 	'*.{ts,svelte}': [
