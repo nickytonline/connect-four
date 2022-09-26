@@ -4,7 +4,7 @@
 </script>
 
 <header>
-	<h1>The beginings of the classic Connect Four game.</h1>
+	<h1>The beginnings of the classic Connect Four game.</h1>
 </header>
 <main>
 	<div>
