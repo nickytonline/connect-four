@@ -4,9 +4,7 @@
 </script>
 
 <header>
-	<h1 style="width: 60vw;padding: 1rem; border: 2rem dotted blue;">
-		The beginings of the classic Connect Four game.
-	</h1>
+	<h1>The beginings of the classic Connect Four game.</h1>
 </header>
 <main>
 	<div>
@@ -17,7 +15,7 @@
 			<img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
 		</a>
 	</div>
-	<h1>Vite + Svelte</h1>
+	<h2>Vite + Svelte</h2>
 
 	<div class="card">
 		<Counter />
@@ -33,6 +31,11 @@
 </main>
 
 <style>
+	h1 {
+		padding: 1rem;
+		border: 2rem dotted blue;
+	}
+
 	.logo {
 		height: 6em;
 		padding: 1.5em;
