@@ -17,7 +17,8 @@
 		"url": "git+https://github.com/nickytonline/connect-four.git"
 	},
 	"keywords": [
-		"typescript"
+		"typescript",
+		"svelte",
 	],
 	"author": "Nick Taylor",
 	"license": "MIT",
