@@ -1,14 +1,42 @@
 <script lang="ts">
-	import { gameState } from '../lib/stores/gameState';
+	import { gameState, type CellState } from '../lib/stores/gameState';
 	import Coin from './Coin.svelte';
+
+	const checkIfColumnIsFull = (column: CellState[]): boolean => {
+		console.log(column);
+		return column.every((cell) => cell !== undefined);
+	};
+
+	const insertCoinAsCurrentPlayerIntoColumn = (colIndex: number) => () => {
+		const isFull = checkIfColumnIsFull($gameState.boardState[colIndex]);
+		if (isFull) {
+			alert('Column is full!');
+			return;
+		}
+		const newColumn = [...$gameState.boardState[colIndex]];
+		const indexToPutCoinInto = newColumn.lastIndexOf(undefined);
+		newColumn[indexToPutCoinInto] = $gameState.playerTurn;
+		$gameState = {
+			...$gameState,
+			boardState: [
+				...$gameState.boardState.slice(0, colIndex),
+				newColumn,
+				...$gameState.boardState.slice(colIndex + 1),
+			],
+			playerTurn: (($gameState.playerTurn + 1) % 2) as 0 | 1,
+		};
+	};
 </script>
 
 <div data-board>
 	{#each $gameState.boardState as column, colIndex}
-		<div data-column={colIndex}>
+		<div
+			data-column={colIndex}
+			on:click={insertCoinAsCurrentPlayerIntoColumn(colIndex)}
+		>
 			{#each column as cell, rowIndex}
 				<div data-cell="{colIndex},{rowIndex}">
-					{#if cell}
+					{#if cell !== undefined}
 						<Coin player={$gameState.players[cell]} />
 					{:else}
 						{colIndex},{rowIndex}
