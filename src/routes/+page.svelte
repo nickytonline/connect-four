@@ -1,9 +1,17 @@
+<script>
+	import Board from '../lib/Board.svelte';
+	import Coin from '../lib/Coin.svelte';
+</script>
+
 <header>
 	<h1>The beginnings of the classic Connect Four game.</h1>
 </header>
 <main>
 	<h2>Welcome to SvelteKit</h2>
 	<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+	<Board />
+	<Coin player={{ color: 'R' }} />
+	<Coin player={{ color: 'Y' }} />
 </main>
 Footer © 2022 GitHub, Inc. Footer navigation
 
