@@ -5,11 +5,14 @@
 	"type": "module",
 	"scripts": {
 		"prebuild": "npm run lint && CI=true npm test -- run --coverage",
-		"dev": "vite",
 		"build": "vite build",
+		"dev": "vite dev",
 		"preview": "vite preview",
-		"check": "svelte-check --tsconfig ./tsconfig.json",
-		"lint": "eslint --ext .cjs,.js,.ts,.svelte src",
+		"test:e2e": "playwright test",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
+		"lint": "prettier --plugin-search-dir . --check . && eslint .",
+		"format": "prettier --plugin-search-dir . --write .",
 		"test": "vitest"
 	},
 	"repository": {
@@ -30,12 +33,14 @@
 		"node": ">=16.17.1"
 	},
 	"devDependencies": {
-		"@sveltejs/vite-plugin-svelte": "^1.0.2",
-		"@tsconfig/svelte": "^3.0.0",
+		"@playwright/test": "^1.25.0",
+		"@sveltejs/adapter-auto": "next",
+		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^5.39.0",
 		"@typescript-eslint/parser": "^5.39.0",
 		"@vitest/coverage-c8": "^0.23.4",
-		"eslint": "^8.24.0",
+		"eslint": "^8.16.0",
+		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"husky": "^8.0.1",
 		"lint-staged": "^13.0.3",
@@ -45,7 +50,7 @@
 		"svelte-check": "^2.9.1",
 		"svelte-preprocess": "^4.10.7",
 		"tslib": "^2.4.0",
-		"typescript": "^4.6.4",
+		"typescript": "^4.7.4",
 		"vite": "^3.1.4",
 		"vitest": "^0.23.4"
 	}
