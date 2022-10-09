@@ -30,7 +30,7 @@
 	},
 	"homepage": "https://github.com/nickytonline/connect-four#readme",
 	"engines": {
-		"node": ">=16.17.1"
+		"node": ">=16"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.25.0",
