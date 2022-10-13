@@ -52,25 +52,25 @@ From there, you can start developing like you would if working on your local mac
 To get started, you will need to sign in or signup for a [CodeSandbox](https://codesandbox.io/) account. Once you are logged in, go to the [connect-four CodeSandbox repo URL](https://codesandbox.io/p/github/nickytonline/connect-four/main?file=%2FREADME.md).
 
 You should see a complete list of files, a README and the preview window. 
-![connect four CodeSandbox repo](assets/codesandbox-connect-four.png)
+![connect four CodeSandbox repo](./codesandbox-connect-four.png)
 
 In the upper right hand corner, click on the Branch dropdown and choose the "Fork project" option. This will create your own copy of the `connect-four` repository on CodeSandbox.
 
-![CodeSandbox fork a project](assets/fork-codesandbox-repo.png)
+![CodeSandbox fork a project](./fork-codesandbox-repo.png)
 
 You will then be asked to create a name for your forked repository. 
 
-![CodeSandbox create name for forked repo](assets/rename-repo-codesandbox.png)
+![CodeSandbox create name for forked repo](./rename-repo-codesandbox.png)
 
 When you click on the "Create new fork" button, it will create a new forked copy of the `connect-four` repository. From there, you can create a new branch by clicking on the Branch button in the upper right hand corner to start working on contributing to the repo. 
 
 You might also see a message like this to install GitHub Apps which helps you run your development server on CodeSandbox.
 
-![CodeSandbox GitHub apps install](assets/github-apps-codesandbox-install.png)
+![CodeSandbox GitHub apps install](./github-apps-codesandbox-install.png)
 
 Once you make some changes, you can commit and push up your work and create a PR by using the Git tools located in the left hand corner of the screen. 
 
-![Git tools in CodeSandbox](assets/git-tools-codesandbox.png)
+![Git tools in CodeSandbox](./git-tools-codesandbox.png)
 
 ## Contributing
 
