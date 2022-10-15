@@ -13,5 +13,5 @@ interface GameState {
 export const gameState = writable<GameState>({
 	players: [{ color: 'R' }, { color: 'Y' }],
 	playerTurn: 1,
-	boardState: new Array(7).fill(new Array(6).fill(undefined)),
+	boardState: new Array(7).fill(new Array(6).fill(undefined))
 });

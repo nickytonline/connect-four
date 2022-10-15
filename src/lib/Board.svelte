@@ -21,19 +21,16 @@
 			boardState: [
 				...$gameState.boardState.slice(0, colIndex),
 				newColumn,
-				...$gameState.boardState.slice(colIndex + 1),
+				...$gameState.boardState.slice(colIndex + 1)
 			],
-			playerTurn: (($gameState.playerTurn + 1) % 2) as 0 | 1,
+			playerTurn: (($gameState.playerTurn + 1) % 2) as 0 | 1
 		};
 	};
 </script>
 
 <div data-board>
 	{#each $gameState.boardState as column, colIndex}
-		<div
-			data-column={colIndex}
-			on:click={insertCoinAsCurrentPlayerIntoColumn(colIndex)}
-		>
+		<div data-column={colIndex} on:click={insertCoinAsCurrentPlayerIntoColumn(colIndex)}>
 			{#each column as cell, rowIndex}
 				<div data-cell="{colIndex},{rowIndex}">
 					{#if cell !== undefined}
