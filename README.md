@@ -4,6 +4,11 @@
 
 A web-based version of the classic game Connect Four
 
+## Contributing
+
+If you're interested in contributing to the project, please read the
+[contributing guidelines](CONTRIBUTING.md).
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) +
@@ -72,8 +77,3 @@ You might also see a message like this to install GitHub Apps which helps you ru
 Once you make some changes, you can commit and push up your work and create a PR by using the Git tools located in the left hand corner of the screen.
 
 ![Git tools in CodeSandbox](./git-tools-codesandbox.png)
-
-## Contributing
-
-If you're interested in contributing to the project, please read the
-[contributing guidelines](CONTRIBUTING.md).
