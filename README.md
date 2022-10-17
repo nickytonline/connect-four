@@ -4,7 +4,13 @@
 
 A web-based version of the classic game Connect Four.
 
-Connect Four (also known as Connect 4, Four Up, Plot Four, Find Four, Captain's Mistress, Four in a Row, Drop Four, and Gravitrips in the Soviet Union) is a two-player connection board game, in which the players choose a color and then take turns dropping colored tokens into a seven-column, six-row vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column. The objective of the game is to be the first to form a horizontal, vertical, or diagonal line of four of one's own tokens. Connect Four is a solved game. The first player can always win by playing the right moves. Connect Four is a two-player game with perfect information for both sides, meaning that nothing is hidden from anyone. Connect Four also belongs to the classification of an adversarial, zero-sum game, since a player's advantage is an opponent's disadvantage.
+A web-based version of the classic game Connect Four.
+
+Connect Four is a two-player connection board game. It is also known as Connect 4, Four Up, Plot Four, Find Four, Captain's Mistress, Four in a Row, Drop Four, and Gravitrips in the former Soviet Union.
+
+Players choose a colour and then take turns dropping coloured tokens into a seven-column, six-row, vertically suspended grid. The pieces fall straight down, occupying the lowest available space within the column.
+
+The game's objective is to be the first to form a horizontal, vertical, or diagonal line of four of one's own tokens. Connect Four is a solved game. The first player can always win by playing the right moves. Connect Four is a two-player game with perfect information for both sides, meaning that nothing is hidden from anyone. Connect Four also belongs to an adversarial, zero-sum game classification since a player's advantage is an opponent's disadvantage.
 
 Reference [Connect Four on Wikipedia](https://en.wikipedia.org/wiki/Connect_Four)
 
