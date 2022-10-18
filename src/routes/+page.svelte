@@ -10,8 +10,7 @@
 	<h2>Welcome to SvelteKit</h2>
 	<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 	<Board />
-	<Coin player={{ color: 'R' }} />
-	<Coin player={{ color: 'Y' }} />
+
 </main>
 Footer © 2022 GitHub, Inc. Footer navigation
 
