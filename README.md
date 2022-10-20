@@ -2,8 +2,6 @@
 
 # connect-four
 
-**This project is currently work in progress, PRs welcome!**
-
 A web-based version of the classic game Connect Four.
 
 A web-based version of the classic game Connect Four.
