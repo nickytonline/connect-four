@@ -1,8 +1,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/9d86a366-98d4-48d3-acf1-0fd2c817daec/deploy-status)](https://app.netlify.com/sites/awesome-connect-four/deploys)
 
-# connect-four
+# Connect Four
 
-A web-based version of the classic game Connect Four.
+**This project is currently work in progress, PRs welcome!**
 
 A web-based version of the classic game Connect Four.
 
@@ -28,11 +28,14 @@ If you're interested in contributing to the project, please read the
 
 ### Local Development
 
-1. Ensure that you have the [latest version of Node 16](https://nodejs.org/en/download/) installed.
-1. If you do not have the Netlify CLI installed, follow the
-   [Getting Started with Netlify CLI](https://docs.netlify.com/cli/get-started/) guide.
-1. Run `npm install`
-1. Run `ntl dev`.
+Ensure that you have the [latest version of Node 16](https://nodejs.org/en/download/) installed. Read this guide on [setting up a local development environment with Node, and Git](https://tamalweb.com/setup-local-dev-environment).
+
+1. Run `npm install` to install all the dependencies
+2. Run `npm run dev` to run the project locally
+
+You can also use the Netlify CLI to run the dev server. To install the Netlify CLI, follow the [Getting Started with Netlify CLI](https://docs.netlify.com/cli/get-started/) guide. 
+
+1. Run `ntl dev`
 
 ### Development in Gitpod
 
