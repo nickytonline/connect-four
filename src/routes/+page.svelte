@@ -1,6 +1,5 @@
 <script>
 	import Board from '../lib/Board.svelte';
-	import Coin from '../lib/Coin.svelte';
 </script>
 
 <header>
