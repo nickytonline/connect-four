@@ -30,7 +30,11 @@
 
 <div data-board>
 	{#each $gameState.boardState as column, colIndex}
-		<button data-column={colIndex} on:click={insertCoinAsCurrentPlayerIntoColumn(colIndex)}>
+		<button
+			data-column={colIndex}
+			on:click={insertCoinAsCurrentPlayerIntoColumn(colIndex)}
+			title={`Insert coin into column ${colIndex + 1}`}
+		>
 			{#each column as cell, rowIndex}
 				<div data-cell="{colIndex},{rowIndex}">
 					{#if cell !== undefined}
