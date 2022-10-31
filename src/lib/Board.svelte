@@ -58,6 +58,10 @@
 
 	button[data-column] {
 		cursor: pointer;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		/* Reset most button styles */
 		background: transparent none;
 		font-family: inherit;
 		font-size: 100%;
@@ -67,9 +71,6 @@
 		margin: 0;
 		padding: 0;
 		border: 0;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-around;
 	}
 
 	div[data-board] [data-cell] {
