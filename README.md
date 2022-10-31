@@ -17,6 +17,7 @@ Reference [Connect Four on Wikipedia](https://en.wikipedia.org/wiki/Connect_Four
 If you're interested in contributing to the project, please read the
 [contributing guidelines](CONTRIBUTING.md).
 
+
 ## Recommended IDE Setup
 
 [VS Code](https://code.visualstudio.com/) +
@@ -31,6 +32,17 @@ If you're interested in contributing to the project, please read the
    [Getting Started with Netlify CLI](https://docs.netlify.com/cli/get-started/) guide.
 1. Run `npm install`
 1. Run `ntl dev`.
+
+
+### How to work with Storybook?
+
+1. Run the app with  `npm run storybook`
+2. How to build it by running? - `npm run build-storybook`
+3. Story Book Official documentation
+         - [Guides](https://storybook.js.org/docs/react/get-started/introduction)
+         - [Tutorials](https://storybook.js.org/tutorials/)
+
+
 
 ### Development in Gitpod
 
