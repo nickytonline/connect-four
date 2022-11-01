@@ -34,14 +34,13 @@ If you're interested in contributing to the project, please read the
 1. Run `ntl dev`.
 
 
-### How to work with Storybook?
+### Working  with Storybook?
 
-1. Run the app with  `npm run storybook`
-2. How to build it by running? - `npm run build-storybook`
-3. Story Book Official documentation
-- [Guides](https://storybook.js.org/docs/react/get-started/introduction)
-
-- [Tutorials](https://storybook.js.org/tutorials/)
+1. To start Storybook, run `npm run storybook`
+2. For more information on Storybook, see the Official documentation
+ - [Guides](https://storybook.js.org/docs/react/get-started/introduction)
+ 
+ - [Tutorials](https://storybook.js.org/tutorials/)
 
 
 
