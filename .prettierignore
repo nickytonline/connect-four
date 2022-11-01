@@ -16,3 +16,4 @@ yarn.lock
 /.github
 /.netlify
 /.vscode
+/dist

@@ -30,7 +30,11 @@
 
 <div data-board>
 	{#each $gameState.boardState as column, colIndex}
-		<div data-column={colIndex} on:click={insertCoinAsCurrentPlayerIntoColumn(colIndex)}>
+		<button
+			data-column={colIndex}
+			on:click={insertCoinAsCurrentPlayerIntoColumn(colIndex)}
+			title={`Insert coin into column ${colIndex + 1}`}
+		>
 			{#each column as cell, rowIndex}
 				<div data-cell="{colIndex},{rowIndex}">
 					{#if cell !== undefined}
@@ -40,7 +44,7 @@
 					{/if}
 				</div>
 			{/each}
-		</div>
+		</button>
 	{/each}
 </div>
 
@@ -54,6 +58,23 @@
 		width: 28rem;
 		height: 25rem;
 		background-color: blue;
+	}
+
+	button[data-column] {
+		cursor: pointer;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		/* Reset most button styles */
+		background: transparent none;
+		font-family: inherit;
+		font-size: 100%;
+		font-weight: inherit;
+		line-height: inherit;
+		color: inherit;
+		margin: 0;
+		padding: 0;
+		border: 0;
 	}
 
 	div[data-board] [data-cell] {
