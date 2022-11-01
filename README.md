@@ -39,7 +39,7 @@ If you're interested in contributing to the project, please read the
 1. To start Storybook, run `npm run storybook`
 2. For more information on Storybook, see the Official documentation
  - [Guides](https://storybook.js.org/docs/react/get-started/introduction)
- 
+
  - [Tutorials](https://storybook.js.org/tutorials/)
 
 
