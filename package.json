@@ -35,7 +35,7 @@
 		"node": ">=16"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.19.6",
+		"@babel/core": "^7.20.5",
 		"@playwright/test": "^1.27.1",
 		"@storybook/addon-actions": "^6.5.13",
 		"@storybook/addon-essentials": "^6.5.13",
